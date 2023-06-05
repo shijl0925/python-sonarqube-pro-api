@@ -9,7 +9,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- get permission template use 'get_template'
+
+### Fixed
+
+- when get one project/group/rule/user, need parameter 'organization' in sonarcloud.
+- Support 'Search the Bitbucket Cloud repositories' use sonarqube.rest.alm_integrations.SonarQubeAlmIntegrations.search_bitbucketclound_repos
+- Support 'Configure a new instance of Bitbucket Cloud' use sonarqube.rest.alm_settings.SonarQubeAlmSettings.create_bitbucketcloud
+
 ### Changed
+
+- get one ALM setting use 'get_alm_setting' instead.
+- get one issue use 'get_issue' instead.
+- get one project use 'get_project' instead.
+- get one group use 'get_user_group' instead.
+- get one rule use 'get_rule' instead.
+- get one user use 'get_user' instead.
+- get one view use 'get_view' instead.
+
+### Removed
 
 ## [2.0.0] - 2023-05-25
 
@@ -40,7 +58,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 
 - 'Activate a rule for a given quality profile' exist bug, fixed it.
-- 
 
 ### Changed
 
